@@ -1,0 +1,32 @@
+{
+  "name": "node-npm-template",
+  "version": "1.0.0",
+  "description": "Template for Node.JS NPM package: VSCode launch task, Unit tests, Travis CI and RunKit custom example",
+  "main": "node-npm-template.js",
+  "scripts": {
+    "test": "mocha tests/*-tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anpur/node-npm-template.git"
+  },
+  "keywords": [
+    "template",
+    "npm",
+    "node",
+    "package",
+    "mocha",
+    "travis"
+  ],
+  "author": "Anton Purin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anpur/node-npm-template/issues"
+  },
+  "homepage": "https://github.com/anpur/node-npm-template#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.0.2"
+  },
+  "runkitExampleFilename": "runkit-example.js"
+}
