@@ -1,5 +1,5 @@
 // You can provide custom example for RunKit (ex Tonic) online JS playground
-// Check how it looks like on https://tonicdev.com/npm/node-npm-template
+// Check how it looks like on https://runkit.com/npm/node-npm-template
 
 var nodeNpmExample = require('node-npm-template'); 
 

@@ -1,5 +1,7 @@
 # node-npm-template
-Template for Node.JS NPM package: VSCode launch task, Unit tests, Travis CI and RunKit custom example.
+Template of Node.JS NPM package: debug in VSCode, test with Mocha, publish to NPM, demo in RunKit and check in Travis CI.
+
+This module is for people who like see working small examples. 
 
 Contents of template:
  
@@ -10,7 +12,7 @@ Contents of template:
  - [Travis CI](https://travis-ci.org/) integration
  - [RunKit](https://runkit.com) custom example
 
-## Setup
+## Setup locally
 Perform these steps to make initial setup of your work environment:
  1. Install the [VSCode](https://code.visualstudio.com)
  2. Install the [Node.js](https://nodejs.org), it comes with the [NPM](https://docs.npmjs.com/) package manager
@@ -49,3 +51,8 @@ To integrate with Travis CI we simply need to add [.travis.yml](https://github.c
 You can check results build results: [travis-ci.org/anpur/node-npm-template](https://travis-ci.org/anpur/node-npm-template) or even add nice badge to your [README.md](https://github.com/anpur/node-npm-template/blob/master/README.md#travis-ci) file:
 
 [![Build Status](https://api.travis-ci.org/anpur/node-npm-template.svg)](https://travis-ci.org/anpur/node-npm-template)
+
+## RunKit custom example
+NPM is integrated with RunKit service, which allows user to play with your module in the browser. You can find a link [Test node-npm-template in your browser](https://tonicdev.com/npm/node-npm-template) on [module's NPM page](https://www.npmjs.com/package/node-npm-template).
+
+You can add custom RunKit example by adding `runkitExampleFilename` field to your [package.json](https://github.com/anpur/node-npm-template/blob/master/package.json) which point to some file, in this case [runkit-example.js](https://github.com/anpur/node-npm-template/blob/master/runkit-example.js).
