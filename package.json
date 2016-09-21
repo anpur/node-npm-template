@@ -1,6 +1,6 @@
 {
   "name": "node-npm-template",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Template for Node.JS NPM package: VSCode launch task, Unit tests, Travis CI and RunKit custom example",
   "main": "node-npm-template.js",
   "scripts": {
